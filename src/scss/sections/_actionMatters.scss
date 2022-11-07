@@ -1,0 +1,64 @@
+.action__matters {
+  max-width: 1160px;
+  margin: 228px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 44px 96px 52px 0;
+
+  @media (max-width: 992px) {
+    flex-direction: column-reverse;
+    padding: 24px 24px 36px;
+    gap: 36px;
+    margin: 112px auto 0;
+  }
+
+  @media (max-width: 768px) {
+    margin: 19px auto 0;
+  }
+
+  .love_img {
+    width: 594px;
+    height: auto;
+    margin-left: -53px;
+
+    @media (max-width: 992px) {
+      width: 100%;
+      height: auto;
+      margin-left: -63px;
+    }
+  }
+
+  .action_matter_content {
+    .action_heading {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 46px;
+      letter-spacing: 0.01em;
+      color: #e84e0f;
+      margin-bottom: 14px;
+
+      @media (max-width: 768px) {
+        font-size: 32px;
+        line-height: 46px;
+        margin-bottom: 8px;
+      }
+    }
+
+    .action_text {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+        line-height: 30px;
+      }
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
