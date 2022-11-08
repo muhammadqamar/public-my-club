@@ -19,16 +19,18 @@
     @media (max-width: 1200px) {
       padding: 68px 24px 73px;
     }
+    @media (max-width: 768px) {
+      padding: 28px 24px 90px;
+    }
     .loyalty_hero_img {
       width: 1035.65px;
       height: auto;
       position: absolute;
-      top: 68px;
+      top: 71px;
       right: 0;
 
       @media (max-width: 992px) {
         display: none;
-        padding: 28px 24px 0;
       }
     }
 

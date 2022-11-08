@@ -13,6 +13,9 @@
     @media (max-width: 1162px) {
       margin-top: 0;
     }
+    @media (max-width: 580px) {
+      margin: 0;
+    }
   }
 
   .get_points {
@@ -40,7 +43,7 @@
       margin-top: 200px;
     }
     @media (max-width: 768px) {
-      margin-top: 120px;
+      margin-top: 29px;
       flex-direction: column;
     }
 
@@ -52,7 +55,7 @@
       @media (max-width: 768px) {
         font-size: 40px;
         line-height: 46px;
-        margin: 0 0 13px;
+        margin: 0 0 10px;
       }
 
       > span {
@@ -133,7 +136,7 @@
       flex-wrap: wrap;
       gap: 5px;
       margin: 0 0 24px;
-      padding: 0 0 28px;
+      padding: 0;
       border: none;
     }
 

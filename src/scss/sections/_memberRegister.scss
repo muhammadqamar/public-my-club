@@ -12,6 +12,9 @@
       flex-direction: column;
       padding: 40px 0 70px;
     }
+    @media (max-width: 768px) {
+      padding: 19px 0 36px;
+    }
 
     .register_img {
       width: 631px;
@@ -81,6 +84,16 @@
             letter-spacing: 0.01em;
             margin: 0;
           }
+          .right-arrow-desk {
+            @media (max-width: 768px) {
+              display: none;
+            }
+          }
+          .right-arrow-mobile {
+            @media (min-width: 768px) {
+              display: none;
+            }
+          }
         }
 
         .and_regis {
@@ -118,6 +131,11 @@
             @media (max-width: 768px) {
               font-size: 20px;
               line-height: 28px;
+            }
+          }
+          .right_arrow_two {
+            @media (max-width: 768px) {
+              display: none;
             }
           }
         }
