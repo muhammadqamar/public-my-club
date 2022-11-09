@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import "./scss/style.scss";
+      /* @import "https://www.public.gr/styles.8a98d892fe6484c6.css"; */
+    </style>
+  </head>
 
-  <style>
-    @import "./scss/style.scss";
-    @import "https://www.public.gr/styles.8a98d892fe6484c6.css";
-  </style>
-</head>
+  <body>
+    <include src="sections/hero.html"></include>
+    <div class="main_bg_color">
+      <include src="sections/redeemPoints.html"></include>
+      <include src="sections/extraPrivileges.html"></include>
+      <include src="sections/actionMatters.html"></include>
+    </div>
 
-<body>
-
-  <include src="sections/hero.html"></include>
-  <div class="main_bg_color">
-    <include src="sections/redeemPoints.html"></include>
-    <include src="sections/extraPrivileges.html"></include>
-    <include src="sections/actionMatters.html"></include>
-  </div>
-
-  <include src="sections/memberRegister.html"></include>
-</body>
-
+    <include src="sections/memberRegister.html"></include>
+  </body>
 </html>

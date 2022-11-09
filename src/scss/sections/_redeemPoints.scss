@@ -1,13 +1,13 @@
 .redeem__points__section {
   max-width: 1185px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   position: relative;
 
   .public_points_card {
-    width: 763px;
+    width: 721px;
     height: auto;
     position: relative;
-    margin: -121px 0 0 -47px;
+    margin: -160px 0 0 0;
     z-index: 1;
 
     @media (max-width: 1162px) {
@@ -20,8 +20,8 @@
 
   .get_points {
     position: relative;
-    width: 678.55px;
-    margin: -150px 25px 0 auto;
+    width: 706px;
+    margin: -285px 25px 0 auto;
 
     @media (max-width: 992px) {
       width: 100%;
@@ -117,6 +117,10 @@
     }
     .points_detail_One {
       margin-bottom: 30px;
+
+      @media (max-width: 768px) {
+        margin-bottom: 8px;
+      }
     }
   }
 
